@@ -1,0 +1,24 @@
+# Core framework
+fastapi==0.111.1
+uvicorn[standard]==0.30.1
+
+# Data validation
+pydantic==2.7.4
+
+# Computer vision (headless for cloud deployment compatibility)
+opencv-python-headless==4.10.0.84
+
+# Hand landmark detection
+mediapipe==0.10.14
+
+# Deep learning
+tensorflow==2.16.2
+
+# Scientific computing (pinned to version compatible with TF 2.16 + mediapipe 0.10)
+numpy==1.26.4
+
+# Multipart form data support (required by FastAPI for UploadFile)
+python-multipart==0.0.9
+
+# Environment variable management
+python-dotenv==1.0.1

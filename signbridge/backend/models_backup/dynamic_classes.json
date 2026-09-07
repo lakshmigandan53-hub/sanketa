@@ -1,0 +1,10 @@
+{
+  "classes": [
+    "HELP",
+    "PLEASE",
+    "SORRY",
+    "THANK_YOU"
+  ],
+  "num_classes": 4,
+  "val_accuracy": 1.0
+}

@@ -1,0 +1,23 @@
+{
+  "classes": [
+    "HELLO",
+    "YES",
+    "NO",
+    "WATER",
+    "FOOD",
+    "MILK",
+    "TEA",
+    "BOOK",
+    "PEN",
+    "PHONE",
+    "HELP"
+  ],
+  "input_shape": [
+    63
+  ],
+  "num_classes": 11,
+  "model_version": "2.0_static_multi_person",
+  "test_accuracy": 0.9986,
+  "test_person": "member_04",
+  "created_at": "2026-09-07 19:16:39"
+}

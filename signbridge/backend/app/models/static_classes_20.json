@@ -1,0 +1,45 @@
+{
+  "version": "v1_20class",
+  "classes": [
+    "BOOK",
+    "FOOD",
+    "HELLO",
+    "HELP",
+    "MILK",
+    "NO",
+    "PEN",
+    "PHONE",
+    "TEA",
+    "WATER",
+    "YES"
+  ],
+  "num_classes": 11,
+  "missing_classes": [
+    "CAR",
+    "COLLEGE",
+    "COMPUTER",
+    "DOCTOR",
+    "HOME",
+    "HOSPITAL",
+    "HOUSE",
+    "MONEY",
+    "SCHOOL"
+  ],
+  "test_accuracy": 0.9954545497894287,
+  "per_class_accuracy": {
+    "BOOK": 1.0,
+    "FOOD": 1.0,
+    "HELLO": 1.0,
+    "HELP": 1.0,
+    "MILK": 1.0,
+    "NO": 1.0,
+    "PEN": 1.0,
+    "PHONE": 1.0,
+    "TEA": 1.0,
+    "WATER": 1.0,
+    "YES": 0.95
+  },
+  "best_class": "BOOK",
+  "worst_class": "YES",
+  "bias_detected": false
+}

@@ -1,0 +1,25 @@
+{
+  "classes": [
+    "HELLO",
+    "HELP",
+    "NO",
+    "PLEASE",
+    "SORRY",
+    "THANK_YOU",
+    "WATER",
+    "YES"
+  ],
+  "num_classes": 8,
+  "static_classes": [
+    "HELLO",
+    "NO",
+    "WATER",
+    "YES"
+  ],
+  "dynamic_classes": [
+    "HELP",
+    "PLEASE",
+    "SORRY",
+    "THANK_YOU"
+  ]
+}

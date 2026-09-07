@@ -1,0 +1,10 @@
+{
+  "classes": [
+    "HELLO",
+    "NO",
+    "WATER",
+    "YES"
+  ],
+  "num_classes": 4,
+  "val_accuracy": 1.0
+}

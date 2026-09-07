@@ -1,0 +1,84 @@
+{
+  "model_name": "isl_static_best.keras",
+  "classes": [
+    "HELLO",
+    "NO",
+    "WATER",
+    "YES"
+  ],
+  "input_shape": [
+    63
+  ],
+  "train_samples": 1440,
+  "val_samples": 160,
+  "test_samples": 160,
+  "train_accuracy": 1.0,
+  "val_accuracy": 1.0,
+  "test_accuracy": 1.0,
+  "confusion_matrix": [
+    [
+      40,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      40,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      40,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      40
+    ]
+  ],
+  "classification_report": {
+    "HELLO": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "NO": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "WATER": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "YES": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 160.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 160.0
+    }
+  },
+  "training_time_seconds": 9.69
+}

@@ -1,0 +1,35 @@
+{
+  "classes": [
+    "HELLO",
+    "YES",
+    "NO",
+    "WATER",
+    "FOOD",
+    "MILK",
+    "TEA",
+    "BOOK",
+    "PEN",
+    "PHONE",
+    "HELP"
+  ],
+  "num_classes": 11,
+  "static_classes": [
+    "HELLO",
+    "YES",
+    "NO",
+    "WATER",
+    "FOOD",
+    "MILK",
+    "TEA",
+    "BOOK",
+    "PEN",
+    "PHONE",
+    "HELP"
+  ],
+  "dynamic_classes": [
+    "HELP",
+    "PLEASE",
+    "SORRY",
+    "THANK_YOU"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "_readme": "SANKETA word configuration. 11 static ISL sign classes: HELLO, YES, NO, WATER, FOOD, MILK, TEA, BOOK, PEN, PHONE, HELP.",
+  "version": "2.0",
+  "target_samples_per_word": 200,
+  "capture_delay_seconds": 0.4,
+  "confidence_threshold": 0.7,
+  "members": {
+    "member_01": {
+      "display_name": "Member 01",
+      "words": [
+        "HELLO",
+        "YES",
+        "NO",
+        "WATER",
+        "FOOD",
+        "MILK",
+        "TEA",
+        "BOOK",
+        "PEN",
+        "PHONE",
+        "HELP"
+      ],
+      "word_types": {
+        "HELLO": "static",
+        "YES": "static",
+        "NO": "static",
+        "WATER": "static",
+        "FOOD": "static",
+        "MILK": "static",
+        "TEA": "static",
+        "BOOK": "static",
+        "PEN": "static",
+        "PHONE": "static",
+        "HELP": "static"
+      }
+    },
+    "member_02": {
+      "display_name": "Member 02",
+      "words": [
+        "HELLO",
+        "YES",
+        "NO",
+        "WATER",
+        "FOOD",
+        "MILK",
+        "TEA",
+        "BOOK",
+        "PEN",
+        "PHONE",
+        "HELP"
+      ],
+      "word_types": {
+        "HELLO": "static",
+        "YES": "static",
+        "NO": "static",
+        "WATER": "static",
+        "FOOD": "static",
+        "MILK": "static",
+        "TEA": "static",
+        "BOOK": "static",
+        "PEN": "static",
+        "PHONE": "static",
+        "HELP": "static"
+      }
+    },
+    "member_03": {
+      "display_name": "Member 03",
+      "words": [
+        "HELLO",
+        "YES",
+        "NO",
+        "WATER",
+        "FOOD",
+        "MILK",
+        "TEA",
+        "BOOK",
+        "PEN",
+        "PHONE",
+        "HELP"
+      ],
+      "word_types": {
+        "HELLO": "static",
+        "YES": "static",
+        "NO": "static",
+        "WATER": "static",
+        "FOOD": "static",
+        "MILK": "static",
+        "TEA": "static",
+        "BOOK": "static",
+        "PEN": "static",
+        "PHONE": "static",
+        "HELP": "static"
+      }
+    },
+    "member_04": {
+      "display_name": "Member 04",
+      "words": [
+        "HELLO",
+        "YES",
+        "NO",
+        "WATER",
+        "FOOD",
+        "MILK",
+        "TEA",
+        "BOOK",
+        "PEN",
+        "PHONE",
+        "HELP"
+      ],
+      "word_types": {
+        "HELLO": "static",
+        "YES": "static",
+        "NO": "static",
+        "WATER": "static",
+        "FOOD": "static",
+        "MILK": "static",
+        "TEA": "static",
+        "BOOK": "static",
+        "PEN": "static",
+        "PHONE": "static",
+        "HELP": "static"
+      }
+    },
+    "member_05": {
+      "display_name": "Member 05",
+      "words": [
+        "HELLO",
+        "YES",
+        "NO",
+        "WATER",
+        "FOOD",
+        "MILK",
+        "TEA",
+        "BOOK",
+        "PEN",
+        "PHONE",
+        "HELP"
+      ],
+      "word_types": {
+        "HELLO": "static",
+        "YES": "static",
+        "NO": "static",
+        "WATER": "static",
+        "FOOD": "static",
+        "MILK": "static",
+        "TEA": "static",
+        "BOOK": "static",
+        "PEN": "static",
+        "PHONE": "static",
+        "HELP": "static"
+      }
+    },
+    "member_06": {
+      "display_name": "Member 06",
+      "words": [
+        "HELLO",
+        "YES",
+        "NO",
+        "WATER",
+        "FOOD",
+        "MILK",
+        "TEA",
+        "BOOK",
+        "PEN",
+        "PHONE",
+        "HELP"
+      ],
+      "word_types": {
+        "HELLO": "static",
+        "YES": "static",
+        "NO": "static",
+        "WATER": "static",
+        "FOOD": "static",
+        "MILK": "static",
+        "TEA": "static",
+        "BOOK": "static",
+        "PEN": "static",
+        "PHONE": "static",
+        "HELP": "static"
+      }
+    }
+  }
+}

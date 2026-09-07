@@ -1,0 +1,43 @@
+# Python virtual environments
+**/venv/
+**/env/
+**/ENV/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node dependencies and build
+**/node_modules/
+**/build/
+**/dist/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# OS files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# IDE and caches
+.idea/
+.vscode/
+*.swp
+*.swo
+.pytest_cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*_backup.py
+*_backup.keras
+*_ckpt.keras
+

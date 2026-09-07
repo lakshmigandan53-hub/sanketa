@@ -1,0 +1,257 @@
+{
+  "timestamp": "2026-09-05T21:26:08Z",
+  "dataset_summary": {
+    "static": {
+      "HELLO": {
+        "count": 200,
+        "shapes": [
+          [
+            63
+          ]
+        ],
+        "min": -0.18185673654079437,
+        "max": 1.0784035921096802,
+        "corrupt": 0,
+        "valid_shape": true
+      },
+      "NO": {
+        "count": 200,
+        "shapes": [
+          [
+            63
+          ]
+        ],
+        "min": -0.07445771992206573,
+        "max": 0.793035626411438,
+        "corrupt": 0,
+        "valid_shape": true
+      },
+      "WATER": {
+        "count": 200,
+        "shapes": [
+          [
+            63
+          ]
+        ],
+        "min": -0.10284291207790375,
+        "max": 0.9645895957946777,
+        "corrupt": 0,
+        "valid_shape": true
+      },
+      "YES": {
+        "count": 200,
+        "shapes": [
+          [
+            63
+          ]
+        ],
+        "min": -0.1512475609779358,
+        "max": 0.8080278038978577,
+        "corrupt": 0,
+        "valid_shape": true
+      }
+    },
+    "dynamic": {
+      "HELP": {
+        "count": 200,
+        "shapes": [
+          [
+            30,
+            63
+          ]
+        ],
+        "min": -0.3720840811729431,
+        "max": 1.1219786405563354,
+        "corrupt": 0,
+        "valid_shape": true
+      },
+      "PLEASE": {
+        "count": 200,
+        "shapes": [
+          [
+            30,
+            63
+          ]
+        ],
+        "min": -0.07167128473520279,
+        "max": 1.0378040075302124,
+        "corrupt": 0,
+        "valid_shape": true
+      },
+      "SORRY": {
+        "count": 200,
+        "shapes": [
+          [
+            30,
+            63
+          ]
+        ],
+        "min": -0.05573098734021187,
+        "max": 1.0067641735076904,
+        "corrupt": 0,
+        "valid_shape": true
+      },
+      "THANK_YOU": {
+        "count": 200,
+        "shapes": [
+          [
+            30,
+            63
+          ]
+        ],
+        "min": -0.19605037569999695,
+        "max": 1.0878452062606812,
+        "corrupt": 0,
+        "valid_shape": true
+      }
+    }
+  },
+  "static_model_v2": {
+    "architecture": "Dense(256)->BatchNorm->ReLU->Dropout(0.25)->Dense(128)->BatchNorm->ReLU->Dropout(0.2)->Dense(64)->BatchNorm->ReLU->Dropout(0.15)->Dense(4,Softmax)",
+    "training_accuracy": 1.0,
+    "validation_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "weighted_precision": 1.0,
+    "weighted_recall": 1.0,
+    "weighted_f1": 1.0,
+    "per_class": {
+      "HELLO": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 20
+      },
+      "NO": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 20
+      },
+      "WATER": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 20
+      },
+      "YES": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 20
+      }
+    },
+    "confusion_matrix": [
+      [
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        20
+      ]
+    ],
+    "classes": [
+      "HELLO",
+      "NO",
+      "WATER",
+      "YES"
+    ]
+  },
+  "dynamic_model_v2": {
+    "architecture": "Bidirectional(LSTM(128, return_seq=True))->Dropout(0.25)->Bidirectional(LSTM(64))->Dropout(0.2)->Dense(64,ReLU)->Dense(4,Softmax)",
+    "training_accuracy": 0.9976562261581421,
+    "validation_accuracy": 1.0,
+    "test_accuracy": 0.987500011920929,
+    "weighted_precision": 0.9880952380952381,
+    "weighted_recall": 0.9875,
+    "weighted_f1": 0.9874921826141339,
+    "per_class": {
+      "HELP": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 20
+      },
+      "PLEASE": {
+        "accuracy": 1.0,
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1_score": 0.975609756097561,
+        "test_samples": 20
+      },
+      "SORRY": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 20
+      },
+      "THANK_YOU": {
+        "accuracy": 0.95,
+        "precision": 1.0,
+        "recall": 0.95,
+        "f1_score": 0.9743589743589743,
+        "test_samples": 20
+      }
+    },
+    "confusion_matrix": [
+      [
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        19
+      ]
+    ],
+    "classes": [
+      "HELP",
+      "PLEASE",
+      "SORRY",
+      "THANK_YOU"
+    ]
+  },
+  "model_comparison": {
+    "static_v1_accuracy": 1.0,
+    "static_v2_accuracy": 1.0,
+    "dynamic_v1_accuracy": 1.0,
+    "dynamic_v2_accuracy": 0.987500011920929
+  }
+}

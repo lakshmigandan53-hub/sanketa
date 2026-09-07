@@ -1,0 +1,16 @@
+{
+  "classes": [
+    "HELLO",
+    "YES",
+    "NO",
+    "WATER",
+    "FOOD",
+    "MILK",
+    "TEA",
+    "BOOK",
+    "PEN",
+    "PHONE",
+    "HELP"
+  ],
+  "num_classes": 11
+}
